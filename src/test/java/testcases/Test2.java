@@ -20,10 +20,10 @@ public class Test2 extends Base
 	    System.out.println(key);
 	    
 	    //create issue
-	    
+	    RestAssured.baseURI = ps.getProperty("JIRAHOST");
 	    Response res =given().  
 	              header("Content-Type","application/json").
-	              header("Cookie","SESSIONID="+key).
+	              header("Cookie","JSESSIONID="+key).
 	              body("{\n" +
 	            	        "    \"fields\": {\n" +
 	            	        "       \"project\":\n" +
@@ -38,7 +38,7 @@ public class Test2 extends Base
 	            	        "   }\n" +
 	            	        "}"). 
 	    when().
-	             post("rest/api/2/issue").then().extract().response();
+	             post("/rest/api/2/issue").then().extract().response();
 	    String response = res.asString();
 	    System.out.println(response);
 	    JsonPath js = new JsonPath(response);

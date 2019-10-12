@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3710" started-at="2019-10-09T15:56:03Z" finished-at="2019-10-09T15:56:07Z">
+  <suite name="Default suite" duration-ms="8830" started-at="2019-10-12T11:02:21Z" finished-at="2019-10-12T11:02:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3710" started-at="2019-10-09T15:56:03Z" finished-at="2019-10-09T15:56:07Z">
-      <class name="testcases.TestGetRequest">
-        <test-method status="PASS" signature="testGetRequest()[pri:0, instance:testcases.TestGetRequest@7823a2f9]" name="testGetRequest" duration-ms="3675" started-at="2019-10-09T15:56:03Z" finished-at="2019-10-09T15:56:07Z">
+    <test name="Default test" duration-ms="8830" started-at="2019-10-12T11:02:21Z" finished-at="2019-10-12T11:02:30Z">
+      <class name="testcases.Test2">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:testcases.Test2@cb5822]" name="BeforeSuite" is-config="true" duration-ms="15" started-at="2019-10-12T11:02:21Z" finished-at="2019-10-12T11:02:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGetRequest -->
-      </class> <!-- testcases.TestGetRequest -->
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="verifyJAPI()[pri:0, instance:testcases.Test2@cb5822]" name="verifyJAPI" duration-ms="8807" started-at="2019-10-12T11:02:21Z" finished-at="2019-10-12T11:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJAPI -->
+      </class> <!-- testcases.Test2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

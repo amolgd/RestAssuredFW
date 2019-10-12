@@ -12,7 +12,7 @@ public class Test2 extends Base
 {
 
 	@Test
-	public void verifyJAPI()
+	public void verifyCreateIssueAPI()
 	{
 		
 		//Get token

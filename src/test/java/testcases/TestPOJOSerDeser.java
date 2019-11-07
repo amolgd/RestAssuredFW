@@ -2,7 +2,7 @@ package testcases;
 import Utilities.GetJsonPaylod;
 import Utilities.Courses;
 
-public class TestPOJOSer 
+public class TestPOJOSerDeser 
 {
 	public static void main(String args[])
 	{
